@@ -34,7 +34,7 @@ const Grid: React.FC<GridProps> = ({ trail, lastMoveTime, currentPosition }) => 
                 // Determine background color based on trail and current position
                 const backgroundColor = isInTrail || isCurrentPosition
                     ? `rgba(225, 90, 29, ${opacity})` // Use pop-orange color
-                    : 'var(--color-surface-secondary)';
+                    : 'var(--color-light-orange)';
 
                 return (
                     <div

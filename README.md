@@ -4,7 +4,7 @@
 
 Nocturnal Navigator is an interactive web application that simulates controlling a robot on a 5x5 grid. This project showcases modern React development practices, state management, and responsive design.
 
-![Nocturnal Navigator Demo](https://via.placeholder.com/600x400.png?text=Nocturnal+Navigator+Demo)
+Demo: https://nocturnal-navigator.vercel.app
 
 ## 🚀 Features
 
@@ -28,6 +28,10 @@ Nocturnal Navigator is an interactive web application that simulates controlling
 ```
 nocturnal-navigator/
 ├── src/
+│   ├── _tests_/
+│   │   ├── Grid.test.tsx
+│   │   ├── OwlRobot.test.tsx
+│   │   ├── useRobotState.test.ts
 │   ├── components/
 │   │   ├── Compass.tsx
 │   │   ├── Controls.tsx
@@ -57,7 +61,7 @@ nocturnal-navigator/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/nocturnal-navigator.git
+   git clone  https://github.com/hellomishki/nocturnal-navigator.git
    ```
 
 2. Navigate to the project directory:
@@ -106,17 +110,13 @@ npm run test
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/your-username/nocturnal-navigator/issues).
-
-## 📜 License
-
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/hellomishki/nocturnal-navigator/issues).
 
 ## 👤 Author
 
 Your Name
-- GitHub: [@your-github-username](https://github.com/your-github-username)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-linkedin)
+- GitHub: [@hellomishki](https://github.com/hellomishki)
+- LinkedIn: [@lilianasummers](https://www.linkedin.com/in/lilianasummers/)
 
 ## 🙏 Acknowledgements
 

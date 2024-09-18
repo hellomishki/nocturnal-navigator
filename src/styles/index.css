@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
+    --color-light-orange: rgb(242 235 225);
     --color-white: #ffffff;
+    --color-blue: #2F6967;
+    --color-dark-blue: rgb(36 69 97);
     --color-grey-100: #f7f7f7;
     --color-grey-200: #efefef;
     --color-grey-300: #dbdbdb;
@@ -20,4 +24,19 @@
     --color-surface-secondary: var(--color-grey-300);
     --color-surface-tertiary: var(--color-grey-400);
     --color-surface-brand: var(--color-pop-orange);
+}
+
+.bg-sand {
+    background-color: rgb(232 219 199 / var(--tw-bg-opacity));
+}
+
+button.bg-surface-secondary {
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+button.bg-surface-brand {
+    background-color: var(--color-blue);
+    font-size: 14px;
 }

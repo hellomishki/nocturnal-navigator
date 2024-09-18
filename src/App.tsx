@@ -57,8 +57,7 @@ const App: React.FC = () => {
     };
 
     return (
-        <div className="min-h-screen bg-white flex flex-col items-center justify-center p-4">
-            <h1 className="text-3xl font-bold text-text-primary mb-4">Nocturnal Navigator</h1>
+        <div className="min-h-screen bg-sand flex flex-col items-center justify-center p-4">
             <div className="mb-4">
                 <Compass direction={direction} />
             </div>

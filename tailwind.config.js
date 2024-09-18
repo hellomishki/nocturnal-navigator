@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inria Sans', 'sans-serif'],
+      },
       colors: {
         white: '#ffffff',
         grey: {
