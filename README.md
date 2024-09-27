@@ -113,8 +113,7 @@ npm run test
 Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/hellomishki/nocturnal-navigator/issues).
 
 ## 👤 Author
-
-Your Name
+Liliana Summers
 - GitHub: [@hellomishki](https://github.com/hellomishki)
 - LinkedIn: [@lilianasummers](https://www.linkedin.com/in/lilianasummers/)
 
